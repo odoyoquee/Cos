@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../malgee/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color:pink;
+    font-size: larger;
+}
+
+.landing{
+  margin-left: 30%;
+  padding-top: 1%;
+  color:chartreuse;
+  font-size: xx-large;
+  
+}
+span{
+ color:pink;
+ font-weight: bolder;
+ font-size: 30px;
+}
+
+
+.navbar {
+  
+  width: 100%;
+  background-color:green;
+  overflow: hidden;
+  position: fixed;
+  border-radius:10px;
+  opacity:0.7;
+  top: 5px;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+/*video*/
+#cala{
+    color: orange;
+    text-align: center;
+    text-transform: uppercase;
+}
+#review{
+    color:yellowgreen;
+}
+
+table{
+    padding:5px;
+    border:1px black;
+    border-collapse:collapse;
+    background-color: chartreuse;
+    opacity: 0.4;
+    color: black;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  tr{
+    padding:5px;
+    border:1px solid black;
+    border-collapse:colapse;
+    border-radius: 10px;
+  }
+  td{
+    padding:5px;
+    border:1px solid black;
+    border-collapse:collapse;
+  }
+  
+
+#style{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: mediumspringgreen;
+}
+
+video {
+    border: 5px groove lime;
+    padding: 0;
+    width: 32%;
+    height: 300px;
+    border-radius: 10px;
+ }
+
+ #float{
+     float: left;
+    width: 49.5%;
+    height: auto;
+    border: black 1px solid;
+    line-height: 1em;
+    margin-bottom: 1px;
+    background-color: coral;
+    opacity: 0.5;
+    color: black;
+    border-radius: 8px;
+ }
+
+ #floatright{
+     float: right;
+     width: 50%;
+    height: auto;
+    border: maroon 1px solid;
+    line-height: 1.5;
+    margin-bottom: 3px;
+    background-color: coral;
+    opacity: 0.5;
+    color: black;
+    border-radius: 8px;
+ }
+
+
+
+ #center{
+     text-align: center;
+ }
+ 
+ /**/
+ 
+/*media*/
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}           
+footer{
+  text-align: center;
+  background-color: limegreen;
+  opacity: 0.7;
+  width: 25%;
+  height:auto;
+  margin-left: 35%;
+  border-radius: 25px;
+  position: fixed;
+  bottom: 0;
+  text-decoration-color: black;
+  color: whitesmoke;
+}
+
+footer p{
+  font-size: 17px;
+}
+
+#one{
+  float: left;
+  border: solid green;
+  width:30%;
+  margin-left: 2%;
+  font-size: medium;
+  background-color: green;
+  opacity: 0.6;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#two{
+  float: left;
+  border: solid green;
+  width:30%;
+  font-size: medium;
+  text-align: center;
+  margin-left: 2%;
+  background-color: green;
+  opacity: 0.6;
+  color: whitesmoke;
+}
+.adv{
+  text-align: center;
+  color: orange;
+  font-size:30px ;
+  text-transform: uppercase;
+}
+#tutorial{
+  text-align: center;
+  color: orange;
+  font-size:30px ;
+  text-transform: uppercase;
+}
+.prices{
+  text-align: center;
+  color: orange;
+  font-size:30px ;
+  text-transform: uppercase;
+}
+.benefits{
+  text-align: center;
+  color: orange;
+  font-size:30px ;
+  text-transform: uppercase;
+}
+.centre{
+  text-align: center;
+}
+#list{
+  font-size:20px;
+  align-content:center;
+}
+#contacts{
+  color:whitesmoke;
+  font-size: larger;
+}

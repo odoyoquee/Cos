@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/tag?style=solid">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <a class="active" href="#home"><i class="fa fa-fw fa-home"></i> Home</a> 
+        <a href="#about"><i class="far fa-address-card"></i></i> About</a> 
+        <a href="#price"><i class="fas fa-tag"></i></i> price</a> 
+        <a href="#contacts"><i class="fa fa-fw fa-envelope"></i> Contacts</a>
+
+
+    </div>
+    <br> 
+    <br> 
+    <br> 
+
+    <div class="landing">
+        <p id="logo"><span>Y</span>our Natural <span>B</span>ody Care <span>S</span>olution</p>
+        <br>
+      </div>
+  
+    <div id="home">
+        <div class="w3-content w3-section" style="width:-10%">
+            <img class="mySlides" src="https://www.franchiseindia.com/uploads/content/wi/art/5a782edc3cec2.jpg">
+            <img class="mySlides" src="https://franchiseindia.s3.ap-south-1.amazonaws.com/uploads/content/wi/art/ayurveda-9d93956939.jpg">
+            <img class="mySlides" src="https://smallbiztrends.com/wp-content/uploads/2015/05/handmade-soaps.jpg">
+          </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+          </script>
+    </div>
+    <div id="about">
+
+            <p class="centre">We are a cosmetics company striving to provide maximum benefit to the end user from production 
+                to consumption.<br>We develop plant extracts and natural ingredients for personal care, hygiene
+                 and body care, with focus on all the stages of the manufacturing process from raw materials 
+                 to the final ingredients and its application solutions in industries.<br> 
+                 We believe the best ingredients can only come from the finest raw materials and manufacturing 
+                 process controlling.
+
+            </p>
+        </div>
+
+             <div>
+        
+            <h2 class="adv">Advantages of Herbal Cosmetics</h2>
+           <span id="list"> <ul>
+                <li>It keeps your skin looking smooth and supple.</li>
+                <li>It delays visible signs of ageing like fine.</li>
+                <li>It helps in healing cracked heels.</li>
+                <li>They are safe to use since they are from natural substances.</li>
+                <li>Moisturises the skin without giving it a greasy feel.</li>
+            </ul></span>
+        </div>
+    <div class="tutorial">
+        <div id="tutorial">
+               <h2>Tutorials</h2>
+        </div>
+               
+            <p class="centre">Here are some videos about herbal cosmetics</p>
+    
+        <video  width="320" height="280" controls>
+            <source src="vid/Halo Herbal Cosmetics.mp4" type="video/mp4">
+        </video>
+        <video width="320" height="280" controls>
+            <source src="vid/videoplayback.mp4" type="video/mp4">
+        </video>
+        <video width="320" height="280" controls>
+            <source src="vid/herb.mp4" type="video/mp4">
+        </video>
+    </div>
+        <div>
+            <h2 id="cala">Marketed Preparations</h2>
+        <table id="table">
+            <tr>
+                <th>Product</th>
+                <th>Brand name</th>
+                <th>Company</th>
+            </tr>
+            <tr>
+                <td>Hair oil</td>
+                <td>Amla Brahmi hair oil</td>
+                <td>Ayur Herbals</td>
+            </tr>
+            <tr>
+                <td>Cream</td>
+                <td>Herbal massage cream</td>
+                <td>Ayur Herbals</td>
+            </tr>
+            <tr>
+                <td>Shampoo</td>
+                <td>Anti-Dandruff Shampoo Volume and Bounce</td>
+                <td>Himalaya Herbals</td>
+            </tr>
+            <tr>
+                <td>Face Wash</td>
+                <td>Deep cleaning Apricot Face Wash</td>
+                <td>Himalaya Herbals</td>
+            </tr>
+            <tr>
+                <td>Anti-Ageing Cream</td>
+                <td>Dabur Uveda Age Renew 5 Cream</td>
+                <td>Dabur</td>
+            </tr>
+        </table>
+        </div>
+    
+    </div>  
+    <br>
+    <div id="price">
+        <h1 class="prices">Prices</h1>
+       
+        <span id="one">
+    
+        <img src="https://bit.ly/38vtflZ">
+        <div class="item1">
+            <h2>Coconut oil</h2>
+            <p>Coconut oil is derived from the fruit or seed of the coconut palm tree Cocos nucifera</p>
+            <h4>Ksh.1200 per litre</h4>
+     </div>
+     
+
+        </span>
+
+
+        <span id="one">
+        <img src="https://bit.ly/2RIp1AH">
+        <div class="item2">
+        <h2>Aloe Vera oil</h2>
+        <p>Aloe Vera is an ingredient in many cosmetics because it heals, moisturizes, and softens skin.</p>
+        <br>
+        <h4>Ksh.1400 per litre</h4>
+        
+    </div>
+        </span>
+        <span id="one">
+    <img src="https://bit.ly/3aDh5cI">
+       <div class="item3">
+        <h2>Olive oil</h2>
+        <p>Olive oil is used as skin and hair conditioner in cosmetics.</p>
+        <h4>Ksh.995 per 500ml</h4>
+        
+    </div>
+</div>
+      </span>
+       
+       
+
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+    
+    
+    <div>
+        <span id="two">
+            <img src="https://bit.ly/2RLVnKX">
+           <div class="item4">
+            <h2>Jojoba oil</h2>
+            <p>It is the liquid produced in the seed of the Simmondsia chinensis (jojoba) plant.</p>
+            <h4>Ksh.900 per 60ml</h4>
+            
+        </div>
+          </span>
+
+          <span id="two">
+        
+            <img src="https://bit.ly/36gvKqV">
+               <div class="item6">
+                <h2>Carrot oil</h2>
+                <p>It is obtained from the plant Daucus carota belonging to family Apiaceae. 
+                It is a valuable herb since ages as due to its richness in Vitamin A along with other essential vitamins.</p>
+                <h4>Ksh.650 per 60ml</h4>    
+            </div>
+              </span>
+        
+        
+          <span id="two">
+        <img src="https://bit.ly/38DQFWx" style="width:200px height:200px">
+           <div class="item5">
+            <h2>Sunflower oil</h2>
+            <p>It is the non-volatile oil extracted from sunflower seeds obtained from Helianthus annuus, family Asteraceae.</p>
+            <h4>Ksh.1020 per 60ml</h4>
+            
+        </div>
+          </span>
+        
+          
+    </div>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+    <div>
+    <h3 class="benefits">Benefits Of Herbal Cosmetics</h3>
+    <ol>
+       <span id="list"> <li>Naturally clear skin complexion and add a healthy glow to it.</li>
+        <li>Effective in reducing fine lines and wrinkles</li>
+        <li>Helps strengthen the roots of the hair.</li>
+        <li>Increases the resistance of the body against various infections.</li>
+        <li>Protect skin against UV rays.</li>
+        <li>Prevent dark circles below eyes.</li></span>
+    </ol>
+</div>
+   
+    <div>
+        <h2>Customer Review</h2>
+        <p>Here are some of the customer reviews on the herbal cosmetics.</p>
+        <img src="https://i.pinimg.com/originals/d8/42/db/d842dbbab539c41f8d9fafbf76a5a52b.jpg" width="500px">
+        <img src="https://i.etsystatic.com/15497270/r/il/9e913f/2142052929/il_570xN.2142052929_5nhx.jpg" width="500px">
+    <img src="https://s1.dmcdn.net/v/8d-iY1Kh57J4JijUP/x1080" width="500px" height="500px">
+    </div>
+    <br>
+    <br> 
+    <br>
+   
+    <div id="contacts">
+            <h5>For more info,contact us through;</h5>
+            <p>Phone no:0726294456 or
+                        0700781347
+            </p>
+            <p>Email-address:odoyograce23@gmail.com</p>
+
+        </div>
+        <br>
+        <br>
+        <br>
+    <br>
+    <br>
+    <br>
+    
+        <footer>
+            <p>MalGee Cosmetics copyright &copy 2020</p>
+        </footer>
+
+
+
+</body>
+</html>
